@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS GAME</title>
+    <link rel="stylesheet" href="styles1.css"/>
+</head>
+<body>
+
+    <h1>ROCK  PAPER SCISSORS </h1>
+    <div id="game-choices">
+    <button onclick="handleButtonClick('Rock')">👊</button>
+    <button onclick="handleButtonClick('Paper')">🤚</button>
+    <button onclick="handleButtonClick('Scissors')">✌️</button>
+    </div>
+    <!-- /////////////////////////// -->
+    <div class="choice-display">
+        <div id="your-choice-display">Your Choice: </div>
+       <div id="computer-choice-display">Computer's Choice: </div>
+    </div>
+    <div id="result-display" class="red-text yellow-text green-text"></div>
+<!-- ////////////////////////////////////// -->
+    <div id="score-display">
+        <p id="yourScore">Your Score: 0</p>
+        <p id="computerScore">Computer's Score: 0</p>
+    </div>
+<!-- ///////////////////////////////// -->
+    <div class="result"></div>
+    <div id="btn">
+        <button id="play-again">Play Again</button>
+    </div>
+        
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
